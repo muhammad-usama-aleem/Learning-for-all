@@ -1,0 +1,82 @@
+
+.bgimg-1{
+	background-image: url("./img/star1.jpg");
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+	margin: 0;
+	padding:10px;
+    min-height: 100vh;		/*quite useful in making responsive*/
+    max-height: 999px;		/*quite useful in making responsive*/
+    overflow: hidden;		/*quite useful in making responsive*/
+
+  	margin-top: 0;
+	opacity: 1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.main
+{
+	margin-top: 0;
+	display: flex;
+	justify-content: flex-start;
+	-moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Tangerine', cursive;
+    font-size: 6em;
+    font-weight: 2em;
+    margin: 5px;
+    background: -webkit-linear-gradient( #FFFFFF, #4e6773);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#hover
+{
+	margin-right: 30px;
+	margin: 5px;
+	transition: all 0.5s;
+	background-color: rgba(0,0,0,0);
+	border-color: white;
+}
+#hover:hover
+{
+	background-color: white;
+	color: black;
+	transform: scale(1.2);
+}
+.top
+{
+	margin: 5px;
+	color: #ffff99;	
+}
+#legend
+{
+	display: flex;
+	justify-content: center; 
+	border-top: 1px dashed white;
+	background: -webkit-linear-gradient(#ffff99, #66FFCC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img
+{
+    margin-right: .25em;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+}
+
+#grid
+{
+	display: grid;
+	align-items: start;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));    /*to make super responsive*/
+}
+img
+{
+	padding: 2px;
+}

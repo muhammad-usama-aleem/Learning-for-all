@@ -1,0 +1,8 @@
+@-webkit-keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+      animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  }
